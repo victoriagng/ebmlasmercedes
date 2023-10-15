@@ -1,0 +1,477 @@
+
+body{
+    background-color: black;
+    height:100%;
+}
+
+.divider hr{
+    border: 2px solid black;
+}
+
+
+/*NAVBAR*/
+.navbar{
+    background-color: rgb(80, 0, 0);
+
+
+}
+
+.navbar-brand{
+    font-size: 3vw;
+    font-family: 'League Spartan', sans-serif;
+    color:#ffff;
+
+}
+
+.navbarlogo{
+    margin-top: -5%;
+    margin-bottom: -5%;
+}
+
+.nav-link{
+    color:#ffff;
+    font-family: 'Montserrat', sans-serif;
+
+}
+
+.dropdown-menu{
+    font-family: 'Montserrat', sans-serif;
+}
+
+/*MAIN PAGE*/
+
+.mainbody{
+    background-image:linear-gradient(rgba(0, 0, 0, 0.7), rgba(0,0,0,0.7)), url("/LM/images/rotada1.jpg");
+    background-size:cover;
+    width: 100%;
+    height: 100%;
+    font-family: 'League Spartan', sans-serif;
+    color: white;
+
+}
+
+.mainbody h1{
+    font-size: 4vw;
+    margin-top: 20vh;
+    text-align: center;
+}
+
+.divider{
+    background-color: black;
+    border: 1px solid white;
+    width: 50vw;
+    margin: 0 auto;
+}
+
+.mainbody h3{
+    font-family: 'Montserrat', sans-serif;
+    font-size: x-large;
+    text-align: center;
+    margin-top: -3%;
+    padding: 5%;
+
+}
+
+.mainbutton{
+    background-color: black;
+    color: white;
+    border: none;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 5vh;
+    padding: 2%;
+    border-radius: 5px;
+    display: block;
+    margin: 0 auto;
+    margin-top: -3%;
+    cursor: pointer;
+    transition:all 0.5s ease;
+
+}
+
+.mainbutton:hover{
+    background-color: rgba(0, 0, 0, 0.5);
+    font-size: 6vh;
+}
+
+/*INFORMATION SECTION*/
+
+
+.maininfo{
+    background-color: black;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+
+
+}
+
+.maininfo a{
+    font-family: 'League Spartan', sans-serif;
+    text-decoration: none;
+    font-size: 4vh;
+    margin: 0 auto;
+    color: white;
+    padding: 5%;
+    transition:all 0.5s ease;
+
+}
+
+.maininfo a:hover{
+    font-size: 4.5vh ;
+}
+
+.maininfo p{
+
+    color: rgba(202, 202, 202, 0.893);
+    font-size: 2vh;
+    margin: -1%;
+    font-family: 'Montserrat', sans-serif;
+
+}
+
+/*PORQUE LAS MERCEDES?*/
+
+.secondinfo{
+    background-image:linear-gradient(rgba(0, 0, 0, 0.7), rgba(0,0,0,1)), url("/LM/images/fondoinforotado.jpg");
+    background-size:cover;
+    width: 100%;
+
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    text-align: left;
+    padding: 5%;
+
+}
+
+
+.secondinfo h1{
+    font-size: 7.5vh;
+    font-family: 'League Spartan', sans-serif;
+    line-height: 0.85;
+    padding-top: 3%;
+
+
+}
+
+.secondinfo h2{
+    font-size: 6vh;
+}
+
+.secondinfo h3{
+    font-size: 4vh;
+}
+
+
+
+.dividerleft{
+    border: 2px solid white;
+    width: 60vw;
+    margin-left: -10%;
+    border-radius: 5px;
+}
+
+.blankspace{
+    height: 18vh;
+}
+
+/* CATEGORIAS */
+
+
+.categoriascontainer h1{
+    font-family: 'League Spartan', sans-serif;
+    line-height: 0.80;
+    margin: 0 auto;
+    text-align: center;
+    font-size: 9vh;
+    padding: 3%;
+    padding-top: -5%;
+    color:white;
+
+
+
+}
+
+.categoriascontainer h4{
+    text-align: center;
+    margin: 0 auto;
+    margin-top: -2%;
+    color:white;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 4vh;
+
+
+
+
+}
+
+.categoriascontainer{
+    padding-bottom: 5%;
+    background-color: black;
+}
+
+.gridcategorias{
+    border: 2px solid transparent;
+    font-family: 'Montserrat', sans-serif;
+    background-color: black;
+    color:white;
+    padding-top: 5%;
+    padding: 2%;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 3%;
+}
+
+.categoria{
+    background-color: #101012ad;
+    border-radius: 10px;
+    transition: all 0.3s ease;
+
+}
+.categoria:hover{
+    box-shadow: 0px 0px 16px 5px rgb(80, 0, 0);
+}
+
+.categoria h3 , span{
+    font-family: 'League Spartan', sans-serif;
+    font-size: 22px;
+    padding-left: 8px;
+
+}
+
+.categoria p{
+    font-size: 2.5vh;
+    padding-left: 8px;
+
+}
+
+.gradient{
+padding: 2%;
+background: hsla(3, 100%, 25%, 1);
+background: radial-gradient(circle, hsla(3, 100%, 25%, 1) 0%, hsla(0, 0%, 0%, 1) 91%);
+background: -moz-radial-gradient(circle, hsla(3, 100%, 25%, 1) 0%, hsla(0, 0%, 0%, 1) 91%);
+background: -webkit-radial-gradient(circle, hsla(3, 100%, 25%,1) 0%, hsla(0, 0%, 0%, 1) 91%);
+filter: progid: DXImageTransform.Microsoft.gradient( startColorstr="#800600", endColorstr="#000000", GradientType=1 );
+}
+
+/*OUTRO*/
+
+.final{
+    padding: 5%;
+    background-color: black;
+    color:white;
+    background-image: url("/LM/images/Home.png");
+    background-size: cover;
+    height:100%;
+    width:100%;
+
+}
+
+.final h1{
+    font-family: 'League Spartan', sans-serif;
+    font-size: 5vw;
+}
+
+
+
+@media (max-width: 600px) {
+
+.navbar-brand{
+    font-size: 2vh;
+
+}
+
+.categoriascontainer{
+    padding-bottom: 15%;
+    background-color: black;
+}
+
+    .gridcategorias {
+        grid-template-rows:repeat(5, 1fr) ;
+        grid-template-columns: 1fr;
+        padding-bottom: 8%;
+    }
+
+    .categoria p{
+        padding-left: 3%;
+        font-size: 3vw;
+    }
+
+    .categoria h3, span{
+        padding-left: 3%;
+    }
+    .mainbody h1{
+        margin-top: 8vh;
+        font-size: 8vw;
+
+    }
+
+    .mainbody h3{
+        font-size: 7vw ;
+    }
+
+    .maininfo a{
+        font-size: 4vw;
+    }
+
+    .maininfo a:hover{
+        font-size: 4.5vw;
+    }
+
+    .maininfo p{
+        font-size: 3vw;
+    }
+
+
+    .secondinfo h1{
+        font-size: 8vw;
+    
+    }
+    
+    .secondinfo h2{
+        font-size: 6vw;
+    }
+    
+    .secondinfo h3{
+        font-size: 4vw;
+    }
+
+    .categoriascontainer h1{
+        font-size: 7.5vw;
+        padding-top: 10%;
+
+    }    
+    
+    .categoriascontainer h4{
+        font-size: 3.6vw;
+        padding: 3%;
+    }
+
+    .final{
+        padding-left: 10%;
+        font-family: 'Montserrat' sans-serif;
+        background-color: black;
+        width:100%;
+        height:100%;
+        background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0,0,0,1)), url("/LM/images/Home.png");
+        background-size: contain;
+    }
+
+    .final h1{
+        font-size: 4vh;
+    }
+
+    .final h3{
+        font-size: 2vh;
+    }
+
+    .final a{
+        text-decoration:underline white ;
+        color:white;
+    }
+
+    .cardcontainer{
+        grid-template-rows:repeat(2, 1fr) ;
+        grid-template-columns: 1fr;
+        padding-bottom: 8%;
+    }
+
+    .galeria{
+        display: grid;
+        grid-template-rows: repeat(2, 1fr);
+        grid-template-columns: 1fr;
+        grid-gap: 2%;
+        padding: 5%;
+        padding-left: 8%;
+    }
+
+    .galeria img {
+        height: 100px;
+        width: 0.5fr;
+    }
+  }
+
+
+  /*********M&V**********/
+
+  .mvbackground{
+    width:100%;
+    height:110%;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0,0,0,0.99)), url("/LM/images/fondocategorias.jpeg");
+    background-size: cover;
+    padding-bottom: 10vh;
+  }
+
+
+.cardcontainer{
+    display: grid;
+    gap: 5%;
+    padding: 5%;
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.card1, .card2{
+    padding: 5%;
+    background-color: rgba(0, 0, 0, 0.675);
+    border-radius: 10px;
+}
+
+.card1 h1, .card2 h1{
+    font-family: 'League Spartan', sans-serif;
+
+}
+
+.infotext{
+    background-color: rgba(0, 0, 0, 0.675);
+    padding-bottom: 5%;
+    padding: 8%;
+    text-align: center;
+    color:white;
+    font-family: 'Montserrat', sans-serif;
+
+}
+
+.infotext h1{
+    font-family: 'League Spartan', sans-serif;
+    
+}
+
+/*image gallery*/
+.galeria {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    grid-gap:  3%;
+}
+
+.galeria img {
+    margin-left: 5%;
+    height:200px;
+    width: 200px;
+}
+
+  /*********NOTICIAS**********/
+
+  .noticiasbg{
+    background-image:linear-gradient(rgba(0, 0, 0, 0.9), rgba(0,0,0,0.9)), url("/LM/images/fondonoticiasrotado.jpg") ;
+    background-size: cover;
+    width: 100%;
+    height: 100vh;
+  }
+
+  .header{
+    padding-top: 6vh;
+    text-align: center;
+    margin: 0 auto;
+    font-family: 'League Spartan', sans-serif;
+    color:white;
+
+  }
+
+  .header h3{
+    font-family: 'Montserrat', sans-serif;
+  }
+
+  .embedsocial-hashtag{
+    color: white;
+  }
